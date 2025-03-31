@@ -1,0 +1,186 @@
+服务端篇：
+langchain:
+https://blog.csdn.net/lvaolan168/article/details/140954166
+https://zhuanlan.zhihu.com/p/640936557
+https://zhuanlan.zhihu.com/p/665503140
+
+xinference：
+https://blog.csdn.net/weixin_52514174/article/details/140175249
+https://zhuanlan.zhihu.com/p/691557123
+https://inference.readthedocs.io/zh-cn/stable/
+============================================================
+模型结构篇
+典型大模型结构：
+https://blog.csdn.net/2301_76161259/article/details/138485615
+典型MOE模型结构：
+==============================================================
+https://www.zhihu.com/tardis/bd/art/677638939?source_id=1001
+https://blog.csdn.net/2301_81940605/article/details/136624734
+https://baijiahao.baidu.com/s?id=1785150810686315676&wfr=spider&for=pc
+https://baijiahao.baidu.com/s?id=1797643113125553766&wfr=spider&for=pc
+https://zhuanlan.zhihu.com/p/639144223
+典型多模态模型结构：
+https://zhuanlan.zhihu.com/p/686202194
+https://zhuanlan.zhihu.com/p/680451690
+https://zhuanlan.zhihu.com/p/680742169
+https://blog.csdn.net/u012863603/article/details/135464899
+RAG模型：
+https://www.zhihu.com/tardis/bd/art/675509396?source_id=1001
+典型扩散模型结构（pipline）：
+https://cloud.tencent.com/developer/article/2395603
+https://baijiahao.baidu.com/s?id=1791568101782660744&wfr=spider&for=pc
+https://zhuanlan.zhihu.com/p/696531724
++ paper(optional)
+
+模型训练篇：
+大语言模型训练基础：
+https://zhuanlan.zhihu.com/p/627358709
+https://zhuanlan.zhihu.com/p/641960340
+MOE模型训练基础
+https://zhuanlan.zhihu.com/p/698015143
+https://blog.csdn.net/qq_27590277/article/details/136360290
+多模态模型训练基础
+https://blog.csdn.net/2401_85280106/article/details/140662158
+https://cloud.tencent.com/developer/article/2315426
+https://blog.csdn.net/Python_paipai/article/details/141230597
+
+模型轻量化篇：
+轻量化模型结构：
+https://cloud.tencent.com/developer/article/2415689
+https://www.163.com/dy/article/J196JRS40511D05M.html
+https://www.chinaz.com/2024/0503/1614133.shtml
+https://zhuanlan.zhihu.com/p/696682393
++ 论文
+LLM量化技术（找1篇博客）
+https://zhuanlan.zhihu.com/p/651874446
+LLM剪枝技术（找2篇博客）
+https://zhuanlan.zhihu.com/p/630902012
+https://juejin.cn/post/7253476306008031287
+https://www.thepaper.cn/newsDetail_forward_24377898
+https://arxiv.org/pdf/2303.18223.pdf
+https://arxiv.org/pdf/2308.07633.pdf
+MoD MLA
+https://zhuanlan.zhihu.com/p/691255701
+https://zhuanlan.zhihu.com/p/699970939
+
+大模型蒸馏学习：
+https://zhuanlan.zhihu.com/p/659943824
+https://zhuanlan.zhihu.com/p/678794929
+https://blog.csdn.net/WCR777/article/details/136469078
+https://baijiahao.baidu.com/s?id=1800918082584293943&wfr=spider&for=pc
+https://zhuanlan.zhihu.com/p/706713189
+https://zhuanlan.zhihu.com/p/706165095
+https://zhuanlan.zhihu.com/p/698079111
+https://www.zhihu.com/question/649192998/answer/3546745976
+https://zhuanlan.zhihu.com/p/710706218
+https://baijiahao.baidu.com/s?id=1810721869623133250&wfr=spider&for=pc
+https://conf01.birentech.com/pages/viewpage.action?pageId=168323827
+
+大模型推理优化部署技术：
+PagedAttention：
+总结项目
+异构推理（prefill decode分离）
+https://yiyibooks.cn/arxiv/2311.18677v2/index.html
+https://blog.csdn.net/yorkhunter/article/details/140139848
+https://blog.csdn.net/u012679583/article/details/138339797
+
+长文本推理
+https://h5.ifeng.com/c/vivo/v002DjWwt2wXpwFdfO7FBiIeHkH5bottjKgPNnnWBeXLZJo__?isNews=1&showComments=0
+https://zhuanlan.zhihu.com/p/709576524
+https://zhuanlan.zhihu.com/p/660073229
+
+
+prefill chunk
+https://zhuanlan.zhihu.com/p/710165390
+长文本推理
+https://zhuanlan.zhihu.com/p/698308542
+投机采样：
+https://baijiahao.baidu.com/s?id=1775816024741172142&wfr=spider&for=pc
+https://zhuanlan.zhihu.com/p/651359908
+
+Sequence Parallel：
+https://blog.csdn.net/qinduohao333/article/details/131629428
+https://zhuanlan.zhihu.com/p/626553071?utm_id=0
+
+后端加速：
+flashAttention 实现：
+https://www.zhihu.com/question/611236756/answer/3328967006
+https://zhuanlan.zhihu.com/p/691067658 （这个页面上的文章有时间都可以看一下）
+https://zhuanlan.zhihu.com/p/672698614
+
+prefix cacheing：
+https://zhuanlan.zhihu.com/p/739669365
+
+
+通信(库)实现： 多卡
+通信(库)实现： 多机
+https://help.aliyun.com/zh/egs/what-is-deepnccl
+https://www.jianshu.com/p/45ab1fa93a6b
+https://blog.csdn.net/weixin_42357472/article/details/136863924
+https://blog.csdn.net/u013013023/article/details/133950028
+https://www.zhihu.com/question/63219175/answer/3487108775
+https://zhuanlan.zhihu.com/p/682980858
+
+
+推理优化综述：
+https://www.sohu.com/a/790365299_121119001
+https://cloud.tencent.com/developer/article/2359653
+https://zhuanlan.zhihu.com/p/694351050
+https://zhuanlan.zhihu.com/p/694979817
+https://zhuanlan.zhihu.com/p/683986024
+file:///C:/Users/e00620/Desktop/a%20suvery%20for%20LLM%20inference.pdf
+https://zhuanlan.zhihu.com/p/672925155
+https://zhuanlan.zhihu.com/p/653352979
+https://towriting.com/blog/2023/09/02/continuous-batch/
+https://blog.csdn.net/muyao987/article/details/131690801
+
+系统架构：
+https://cloud.tencent.com/developer/article/2444469
+https://cloud.tencent.com/developer/article/2446221
+
+
+热点论文：
+deepseek：
+两篇论文
+https://www.bilibili.com/video/BV18zcme1ELC?spm_id_from=333.788.recommend_more_video.1&vd_source=8d025716b41d3dc09d5761b7174fab30
+相关论文解读
+https://zhuanlan.zhihu.com/p/19727315310
+https://zhuanlan.zhihu.com/p/19878591772
+https://zhuanlan.zhihu.com/p/16643819092
+https://zhuanlan.zhihu.com/p/14988009150
+
+
+阅读框架：
+阅读vllm框架源码 用户接口使用方法
+阅读sglang框架源码 用户接口使用方法
+阅读tensorRTLLM的框架源码 用户接口使用方法
+阅读最新的brnn的框架源码
+关注以下方面：
+0-a:  session's interface (how to define a user interface for LLM， including python interface and c++ interface)
+
+0-b:  Fe
+->  (parser mode / build mode) 
+->  graph pass 
+->  graph deal (set input /output info, shape inference, precision inference)
+->  graph divide, (pp tp dp , and barrier prepare)
+
+---------------> in a word, after be process, the graph can be deployed on any device(a pure graph without any device infos)
+
+0-c: Be
+-> some adapation for hardware, including input, output, shape change, params change and initialize
+-> device resource prapare(device memory , stream, gse ,  cudagraph etc)
+-> some tuning process,  included in be process (include the quant param's ajustment, some other policy like gse)
+-> initialize all 
+
+0-d:  kernel
+-> implement for all kernels used in LLM/ other models  including pointwise, Attention. FFN ,allreduce, etc （cuda and host avx only)
+
+
+
+
+
+
+
+
+
+
